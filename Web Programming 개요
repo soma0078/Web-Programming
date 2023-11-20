@@ -1,0 +1,44 @@
+Web Programming 개요
+
+인터넷
+: 우리가 사용하는 컴퓨터를 전 세계 규모로 연결한 것
+
+웹
+: 인터넷 표준 문서 시스템 ( www : world wide web )
+
+웹 특징
+- 전 세계의 컴퓨터를 연결  
+- HTTP 프로토콜 사용
+- HTML로 작성된 문서 연결
+- Text, graphic, audio, video, program file 등 multimedia 서비스 제공
+- 반응형 웹 ( Responsive Web )
+
+마크업 언어 ( Makrup Language )
+: 웹에서 사용되는 문서가 어떻게 구조화되는가를 나타내는 언어
+
+웹 브라우저 ( Web Browser )
+: HTML 문서를 읽고 웹 페이지에 정보를 표시하는 소프트웨어
+: URL( Unifor Resource Locator)을 통해 접근
+
+웹 환경
+:                        요청(Request)            요청(Request)
+                       --------------->         --------------->
+클라이언트(웹 브라우저)                    인터넷                   웹 서버(아파치)
+                       <---------------         <---------------
+                         응답(Response)           응답(Response)
+
+웹 서버 ( Web Server )
+: 클라이언트의 요청에 따라 서버에 있는 파일을 제공
+- 리스너 기능 : cilent로부터 접속이 있는지 항상 체크하고 대기
+- 답변 기능 : 요청한 사항을 처리한 후 결과를 client에 보냄
+
+프로토콜
+: 네트워크에서 제공하는 일종의 데이터 전송 규약
+: 웹 서버는 HTTP를 통해 클라이언트와 대화
+
+포트
+: 웹 서버에서 일종의 문
+: Application program 마다 고유의 port number가 있음
+: 0 ~ 65,535번 중에서 사용 가능 (16bit)
+: 0 ~ 1,023 번 까진 미리 예약된 번호임. 따라서 사용할 수 있는 포트번호는 1,024 ~ 65,535번
+
