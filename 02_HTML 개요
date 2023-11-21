@@ -1,0 +1,25 @@
+HTML 개요
+
+HTML 란?
+: HyperText Markyp Launguage의 약어로, programming language로 볼 수 있음.
+: 최초로 온라인, 인터넷상에서 온라인 문서의 전체 structure를 표현하는 역할.
+
+HTML5 문서의 기본구조
+<!DOCTYPE html> : 현재 문서가 HTML5로 작성된 웹 문서임을 나타냄.
+<html></html> : HTML5 문서의 시작과 종료를 알림.
+<head></head> : <meta> tag, style, JavaScript, title 등 html 문서 정보제공.
+<html></html> : HTML5 문서의 본문 / Web browser 화면에 실제로 보여지는 html element 작성 ( HTML tag를 사용해 문서 대제목, 소제막, 단락, 이미지 등 표현 ).
+
+HTML Element 사용 형식
+: <tagname>Content goes here...</tagname> -> 종료 tag를 반드시 사용.
+: ex) <h1>제목입니다</h1>
+
+HTML Attributes
+: 모든 HTML element들은 attributes를 가지고 Tag의 종속적인 정보를 표현하기 위해 사용함.
+: strart tag에 정의 -> 속서이름="값" 형태로 작성.
+: ex) href, src, style, ...
+
+HTML tag 종류
+Heading
+: 문서의 제목(대제목, 소제목 등)
+:
